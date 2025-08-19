@@ -7,41 +7,52 @@
   <style>
     body {
       font-family: Arial, sans-serif;
-      background-color: #f9f9f9;
+      margin: 0;
+      padding: 0;
+      background: #f0f8ff;
       color: #333;
+      text-align: center;
       display: flex;
+      flex-direction: column;
       justify-content: center;
-      align-items: center;
       height: 100vh;
     }
-    .box {
-      background: #fff;
-      padding: 40px;
+    .message-box {
+      background: white;
+      padding: 30px;
+      margin: auto;
       border-radius: 12px;
-      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-      text-align: center;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      max-width: 400px;
     }
     h1 {
-      color: #007bff;
+      color: #198754;
+      font-size: 1.8rem;
+    }
+    p {
+      margin: 15px 0;
+      font-size: 1rem;
     }
     a {
       display: inline-block;
-      margin-top: 20px;
+      margin-top: 15px;
       text-decoration: none;
-      background: #007bff;
-      color: #fff;
+      background: #0d6efd;
+      color: white;
       padding: 10px 20px;
       border-radius: 8px;
+      font-weight: bold;
     }
     a:hover {
-      background: #0056b3;
+      background: #0b5ed7;
     }
   </style>
 </head>
 <body>
-  <div class="box">
-    <h1>Thank You!</h1>
-    <p>Your message has been sent successfully. We’ll get back to you soon.</p>
+  <div class="message-box">
+    <h1>✅ Thank You!</h1>
+    <p>Your message has been successfully sent.  
+       We’ll get back to you as soon as possible.</p>
     <a href="index.html">Return to Home</a>
   </div>
 </body>
