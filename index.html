@@ -3,72 +3,137 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Crypto Monitize Limited</title>
+  <title>Crypto Monitize Limited (CML)</title>
   <style>
     body {
+      margin: 0;
       font-family: Arial, sans-serif;
-      margin: 0; padding: 0;
-      background: #f4f4f4; color: #333;
+      background-color: #f9fafb;
+      color: #1f2937;
     }
     header {
-      background: #222; color: white;
-      padding: 20px; text-align: center;
+      background-color: #1e3a8a;
+      color: white;
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 1.5rem;
     }
     nav a {
-      margin: 0 15px;
-      color: white; text-decoration: none;
+      color: white;
+      margin-left: 1rem;
+      text-decoration: none;
       font-weight: bold;
     }
-    section {
-      padding: 20px; max-width: 900px;
+    nav a:hover {
+      color: #f59e0b;
+    }
+    .hero {
+      text-align: center;
+      padding: 4rem 2rem;
+      background: linear-gradient(to right, #1e3a8a, #3b82f6);
+      color: white;
+    }
+    .hero h2 {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+    }
+    .hero p {
+      font-size: 1.2rem;
+      max-width: 600px;
       margin: auto;
     }
+    .features {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin: 2rem auto;
+      max-width: 1000px;
+    }
+    .card {
+      background: white;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      margin: 1rem;
+      padding: 2rem;
+      flex: 1 1 250px;
+      text-align: center;
+    }
+    .card h3 {
+      color: #1e3a8a;
+      margin-bottom: 1rem;
+    }
+    .wallets {
+      background: #f3f4f6;
+      padding: 2rem;
+      text-align: center;
+    }
+    .wallets h3 {
+      margin-bottom: 1rem;
+      color: #1e3a8a;
+    }
+    .wallets p {
+      margin: 0.5rem 0;
+      font-family: monospace;
+    }
     footer {
-      background: #222; color: white;
-      text-align: center; padding: 20px;
-      margin-top: 30px;
+      background-color: #1e3a8a;
+      color: white;
+      text-align: center;
+      padding: 1.5rem;
+      margin-top: 2rem;
+    }
+    footer a {
+      color: #f59e0b;
+      text-decoration: none;
+      font-weight: bold;
     }
   </style>
 </head>
 <body>
+  <header>
+    <h1>CML</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
 
-<header>
-  <h1>Crypto Monitize Limited (CML)</h1>
-  <p>A secure and user-friendly platform to buy, sell, and track cryptocurrencies</p>
-  <nav>
-    <a href="index.html">Home</a>
-    <a href="contact.html">Contact Us</a>
-  </nav>
-</header>
+  <section class="hero">
+    <h2>Welcome to Crypto Monitize Limited</h2>
+    <p>A secure and user-friendly platform to buy, sell, and track cryptocurrencies with real-time market data, expert insights, and tools to help you make smarter investment decisions.</p>
+  </section>
 
-<section>
-  <h2>🚀 About Us</h2>
-  <p>
-    Crypto Monitize Limited (CML) provides real-time market data, expert insights, and
-    investment tools to help you make smarter financial decisions in the crypto space.
-  </p>
-</section>
+  <section class="features">
+    <div class="card">
+      <h3>Buy</h3>
+      <p>Quickly and safely buy crypto with our trusted system.</p>
+    </div>
+    <div class="card">
+      <h3>Sell</h3>
+      <p>Cash out anytime with fast and secure transactions.</p>
+    </div>
+    <div class="card">
+      <h3>Track</h3>
+      <p>Stay updated with real-time market insights and trends.</p>
+    </div>
+  </section>
 
-<section>
-  <h2>💳 Payments</h2>
-  <p>You can send crypto payments directly to our secure wallets:</p>
-  
-  <p><strong>Bitcoin (BTC):</strong> 1EhteTQTSN9E7yef79mwk3FVmLYingTWnM</p>
-  <p><strong>Ethereum (ETH - ERC20):</strong> 0x97ca7c54585f5a22b986c2864453efa9f1b64efb</p>
-  <p><strong>USDT (TRC20):</strong> TPQAttreYNYk1cmdXuA7kTj3Fhs1Vsf9na</p>
-  <p><strong>BNB (BEP20):</strong> 0x97ca7c54585f5a22b986c2864453efa9f1b64efb</p>
-</section>
+  <section class="wallets">
+    <h3>Our Wallets</h3>
+    <p><strong>BTC:</strong> 1EhteTQTSN9E7yef79mwk3FVmLYingTWnM</p>
+    <p><strong>ETH (ERC20):</strong> 0x97ca7c54585f5a22b986c2864453efa9f1b64efb</p>
+    <p><strong>BNB (BEP20):</strong> 0x97ca7c54585f5a22b986c2864453efa9f1b64efb</p>
+    <p><strong>USDT (TRC20):</strong> TPQAttreYNYk1cmdXuA7kTj3Fhs1Vsf9na</p>
+  </section>
 
-<footer>
-  <p>📞 +1 (830) 739-545 | Telegram: 
-    <a href="https://t.me/helenhardy1122" style="color:white;">@helenhardy1122</a>
-  </p>
-  <p>💰 BTC Wallet: 1EhteTQTSN9E7yef79mwk3FVmLYingTWnM</p>
-  <p>💰 ETH Wallet (ERC20): 0x97ca7c54585f5a22b986c2864453efa9f1b64efb</p>
-  <p>💰 USDT Wallet (TRC20): TPQAttreYNYk1cmdXuA7kTj3Fhs1Vsf9na</p>
-  <p>💰 BNB Wallet (BEP20): 0x97ca7c54585f5a22b986c2864453efa9f1b64efb</p>
-  <p>&copy; 2025 Crypto Monitize Limited. All rights reserved.</p>
-</footer>
-
+  <footer>
+    <p>📞 +1 (830) 739-545 | 💬 <a href="https://t.me/helenhardy1122" target="_blank">Telegram</a></p>
+    <p>&copy; 2025 Crypto Monitize Limited. All rights reserved.</p>
+  </footer>
 </body>
 </html>
